@@ -1,1 +1,41 @@
+# hardware
+hardware/build/freertos-blinky-firmware
 
+# software
+software/*
+!software/*
+
+# stm32-rtos
+software/stm32-rtos/*
+!software/stm32-rtos/*
+software/stm32-rtos/.metadata
+
+# freertos-blinky
+software/stm32-rtos/freertos-blinky/*
+!software/stm32-rtos/freertos-blinky/Core/
+software/stm32-rtos/freertos-blinky/Core/*
+!software/stm32-rtos/freertos-blinky/Core/Src/
+
+# hello-world-freertos-priority
+software/stm32-rtos/hello-world-freertos-priority/*
+!software/stm32-rtos/hello-world-freertos-priority/Core/
+software/stm32-rtos/hello-world-freertos-priority/Core/*
+!software/stm32-rtos/hello-world-freertos-priority/Core/Src/
+
+# freertos-suspend-and-resume-tasks
+software/stm32-rtos/freertos-suspend-and-resume-tasks/*
+!software/stm32-rtos/freertos-suspend-and-resume-tasks/Core/
+software/stm32-rtos/freertos-suspend-and-resume-tasks/Core/*
+!software/stm32-rtos/freertos-suspend-and-resume-tasks/Core/Src/
+
+# binary-semaphore-freertos
+software/stm32-rtos/binary-semaphore-freertos/*
+!software/stm32-rtos/binary-semaphore-freertos/Core/
+software/stm32-rtos/binary-semaphore-freertos/Core/*
+!software/stm32-rtos/binary-semaphore-freertos/Core/Src/
+
+# vitis
+software/vitis/*
+software/vitis/freertos-blinky/*
+!software/vitis/freertos-blinky/
+!software/vitis/freertos-blinky/src/
