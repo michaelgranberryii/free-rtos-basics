@@ -6,6 +6,10 @@ FreeRtos - Zybo Z7-10 and STM32 Nucleo Board
 
 This project explores the implementation of Real-Time Operating Systems (RTOS) using FreeRTOS, focusing on both STM32 and Xilinx platforms. The project is divided into two parts, beginning with fundamental tasks on the STM32 L476RTG Nucleo board, progressing to more complex implementations, including task control, timed execution, and binary semaphores. The latter part transitions to the Xilinx development board, replicating tasks and comparing FreeRTOS source code with STM32's CMSIS V2.
 
+## Demo Video
+
+[Demo on Youtube](https://youtu.be/gkoCHj0nrcw)
+
 ## Dependencies
 
 ### Hardware
